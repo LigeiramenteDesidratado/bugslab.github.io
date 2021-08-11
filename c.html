@@ -12,8 +12,10 @@
       <li class="navli"><a href="notes.html">Notes</a></li>
     </ul>
   </div>
-  <img src="static/formydemons.svg" alt="for my demons" style="margin: 0 auto;">
-  <h1 style="text-align: center; margin-bottom: 60px;">Coming soon</h1>
+
+  <div id="md">
+
+  </div>
 
   <footer>
     <address style="text-align: center;">
@@ -22,4 +24,13 @@
   </footer>
 
 </body>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    fetch("notes/C.md").then(resp => {
+      return resp.text()
+    }).then(b => {
+      document.getElementById('md').innerHTML = marked(b);
+    }).catch(err => console.log(err));
+  </script>
 </html>
+
