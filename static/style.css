@@ -15,7 +15,7 @@ body {
   max-width: 38em;
   margin: auto;
   color: #c9c9c9;
-  background-color: #222222;
+  background-color: #121212;
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -120,7 +120,7 @@ img, video {
 
 /* Pre and Code */
 pre {
-  background-color: #4a4a4a;
+  background-color: #1a1a1a;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -130,7 +130,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #4a4a4a;
+  background-color: #1a1a1a;
   white-space: pre-wrap; }
 
 pre > code {
