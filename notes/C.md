@@ -1,5 +1,8 @@
 # C
 
+TODO: description
+Notas retiradas do livro `Extreme C`
+
 ## Indexing arrays with char
 
 The index of an array is an integer. In this case c is a character so you cannot have c as index of the array: the ASCII value of a character is often much larger than the indices 0 till 9 in this array.
